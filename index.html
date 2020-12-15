@@ -16,6 +16,97 @@
 
     <main>
 
+        <div class="container">
+            
+            <div class="form">
+
+                <div class="row">
+
+                    <div class="col">
+                        <label for="nome">Nome e Cognome</label>
+                        <input type="text" id="nome" placeholder="Nome e Cognome">
+                    </div>
+
+                    <div class="col">
+                        <label for="distance">Km da percorrere</label>
+                        <input type="number" id="distance">
+                    </div>
+
+                    <div class="col">
+                        <label for="age">Fascia d'et&agrave;</label>
+                        <select id="age">
+                            <option value="minor">Minorenne</option>
+                            <option value="adult">Maggiorenne</option>
+                            <option value="senior">Over 65</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <button type="button" class="btn">Genera</button>
+                    <button type="button" class="btn">Annulla</button>
+
+                </div>
+
+            </div>
+
+            
+        </div>
+        
+        
+        <div id="ticket">
+
+            <h2 class="mb-25">Ecco il tuo Biglietto</h2>
+    
+            <div class="container">
+
+                <div class="details-ticket">
+
+                    <h3>Dettaglo passeggeri</h3>
+
+                    <div class="passenger-info">
+
+                        <div class="passenger-name">
+                            <h3>Nome passeggero</h3>
+                            <h4 id="guest-name"></h4>
+                        </div>
+
+                        <div class="ticket-info">
+                            <table>
+                                <tr>
+                                    <th>Offerta</th>
+                                    <th>Carrozza</th>
+                                    <th>Codice CP</th>
+                                    <th>Costo Biglietto</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span id=""></span>
+                                    </td>
+                                    <td>
+                                        <span id=""></span>
+                                    </td>
+                                    <td>
+                                        <span id=""></span>
+                                    </td>
+                                    <td>
+                                        <span id=""></span>
+                                    </td>
+                                    
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+
+                </div>
+    
+            </div>
+
+        </div>
+
     </main>
     
 

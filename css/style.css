@@ -10,9 +10,115 @@ body {
     font-size: 16px;
 }
 
-header h1 {
+h1 {
     text-transform: uppercase;
     color: white;
     text-align: center;
     padding: 25px 0;
+}
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3 {
+    text-transform: uppercase;
+    border-bottom: 1px solid gray ;
+}
+
+.btn {
+    color: crimson;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 0 15px;
+    border-radius: 5px;
+    border: 1px solid crimson;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(155, 155, 155);
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.container {
+    max-width: 1270px;
+    margin: 0 auto 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(58, 57, 57, 0.657);
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+}
+
+.form .row .col {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+}
+
+.form .row .col label {
+    margin-bottom: 10px;
+    color: crimson;
+}
+
+.col input,
+.col select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid crimson;
+    text-align: center;
+    width: 250px;
+}
+
+input:focus,
+select:focus {
+    background-color: crimson;
+    color: white;
+}
+
+#ticket .details-ticket {
+    padding: 25px;
+}
+
+#ticket .details-ticket .passenger-info {
+    display: flex;  
+}
+
+#ticket .details-ticket .passenger-info .passenger-name {
+    background-color: grey;
+    padding: 25px;
+    width: 25%;
+}
+
+#ticket .details-ticket .passenger-info .ticket-info {
+    width: 75%;
+    padding: 25px;
+}
+
+table {
+    width: 100%;
+}
+
+#ticket .details-ticket .passenger-info .ticket-info table tr th {
+    width: 25%;
 }
