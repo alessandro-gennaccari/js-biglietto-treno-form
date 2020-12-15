@@ -39,7 +39,7 @@ remove.addEventListener("click" , function() {
     document.getElementById('distance').value = '';
     document.getElementById('age').value = '';
 
-    // Azzero tutti i valori calcolati
+    // Azzero tutti i valori stampati
     document.getElementById('guest-name').innerHTML = ' ';
     document.getElementById('promo').innerHTML = ' ';
     document.getElementById('seat').innerHTML = ' ';
@@ -47,7 +47,7 @@ remove.addEventListener("click" , function() {
     document.getElementById('price').innerHTML = ' ';
     
     // Cambio classe all'id selezionato
-    document.getElementById('ticket').className = 'hidden'
+    document.getElementById('ticket').className = 'hidden';
 
 });
 
