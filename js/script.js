@@ -24,7 +24,7 @@ generate.addEventListener('click', function() {
     document.getElementById('promo').innerHTML = promo;
     document.getElementById('seat').innerHTML = Math.floor(Math.random() * 9) + 1;
     document.getElementById('code').innerHTML = Math.floor(Math.random() * (max - min)) + min;
-    document.getElementById('price').innerHTML = ticketPrice;
+    document.getElementById('price').innerHTML = ticketPrice.toFixed(2);
 
     // Cambio classe all'id selezionato
     document.getElementById('ticket').className = 'show';
