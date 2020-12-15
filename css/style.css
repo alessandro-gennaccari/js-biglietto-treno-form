@@ -25,7 +25,6 @@ h2 {
 
 h3 {
     text-transform: uppercase;
-    border-bottom: 1px solid gray ;
 }
 
 .btn {
@@ -45,6 +44,15 @@ h3 {
 
 .mb-25 {
     margin-bottom: 25px;
+}
+
+.show {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.hidden {
+    opacity: 0;
 }
 
 .container {
@@ -113,12 +121,20 @@ select:focus {
 #ticket .details-ticket .passenger-info .ticket-info {
     width: 75%;
     padding: 25px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
-table {
+#ticket .details-ticket .passenger-info .ticket-info table {
     width: 100%;
 }
 
 #ticket .details-ticket .passenger-info .ticket-info table tr th {
     width: 25%;
+    padding-bottom: 50px;
+}
+
+#ticket .details-ticket .passenger-info .ticket-info table tr td{
+    width: 25%;
+    text-align: center;
 }
