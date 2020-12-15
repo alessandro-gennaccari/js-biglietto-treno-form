@@ -27,7 +27,7 @@ generate.addEventListener('click', function() {
     document.getElementById('price').innerHTML = ticketPrice;
 
     // Cambio classe all'id selezionato
-    document.getElementById('ticket').className = 'show'
+    document.getElementById('ticket').className = 'show';
 
 });
 
